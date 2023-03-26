@@ -1,1 +1,72 @@
 @charset "utf-8";
+
+#body {
+  width: 1100px;
+}
+
+.fontawesome {
+  background-color: #fff;
+}
+
+.fas {
+  color: #777;
+  padding: 15px;
+}
+
+.box {
+  background-color: #6ba7eb;
+  font-size: 12px;
+  padding: 12px 14px;
+  color: #fff;
+  float: right;
+}
+
+.keyvisual {
+  position: relative;
+}
+
+.TOP-phot {
+  width: 1100px;
+}
+
+.main-tittle {
+  font-size: 65px;
+  font-weight: 700;
+  color: #6ba7eb;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.sub-tittle {
+  font-size: 40px;
+  font-weight: 700;
+  color: #fff;
+  position: absolute;
+  bottom: 400px;
+  transform: translate(80%,80%);
+
+}
+
+.flex {
+  background-color: #e3f2fd;
+  display: flex;
+}
+
+.work-phot {
+  width: 250px;
+  padding-top: 50px;
+}
+
+.flex .tittle {
+  font-size: 40px;
+  letter-spacing: 10px;
+  padding-top: 20px;
+  font-weight: bold;
+}
+
+.flex .text {
+  margin: 0 0 0 20px;
+
+}
