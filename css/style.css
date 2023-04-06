@@ -28,9 +28,14 @@ body {
   margin: 20px;
 }
 
-img{
+.main-pic img {
   width: 100%;
 }
+
+.warapp {
+  position: relative;
+}
+
 
 .main-tittle {
   font-size: 65px;
@@ -38,9 +43,11 @@ img{
   color: #6ba7eb;
   position: absolute;
   top: 50%;
-  text-align: center;
-  white-space: nowrap;
-  top: 400px;
+  left: 50%;
+  -ms-transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  padding:0;
 }
 
 .sub-tittle {
