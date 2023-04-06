@@ -1,6 +1,6 @@
 @charset "utf-8";
 
-#body {
+body {
   width: 1100px;
 }
 
@@ -11,6 +11,12 @@
 .fas {
   color: #777;
   padding: 15px;
+  position: relative;
+  left: 100px;
+}
+
+#keyvisual {
+  width: 1100px;
 }
 
 .box {
@@ -19,14 +25,11 @@
   padding: 12px 14px;
   color: #fff;
   float: right;
+  margin: 20px;
 }
 
-.keyvisual {
-  position: relative;
-}
-
-.TOP-phot {
-  width: 1100px;
+img{
+  width: 100%;
 }
 
 .main-tittle {
@@ -35,8 +38,9 @@
   color: #6ba7eb;
   position: absolute;
   top: 50%;
-  left: 50%;
-  transform: translate(-50%,-50%);
+  text-align: center;
+  white-space: nowrap;
+  top: 400px;
 }
 
 .sub-tittle {
@@ -45,7 +49,7 @@
   color: #fff;
   position: absolute;
   bottom: 400px;
-  transform: translate(80%,80%);
+  transform: translate(30%,30%);
 
 }
 
