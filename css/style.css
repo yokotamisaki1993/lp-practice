@@ -61,9 +61,10 @@ body {
   display: flex;
 }
 
-.work-phot {
+.work-phot img {
   width: 250px;
   padding-top: 50px;
+  padding-left: 150px;
 }
 
 .tittle {
@@ -73,9 +74,11 @@ body {
   font-weight: bold;
 }
 
-.flex .text {
+.text {
   margin: 0 0 0 20px;
-
+  font-size: 15px;
+  line-height: 18px;
+  word-break: break-all;
 }
 
 .inner {
