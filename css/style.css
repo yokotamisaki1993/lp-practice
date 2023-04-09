@@ -32,22 +32,18 @@ body {
   width: 100%;
 }
 
-.warapp {
-  position: relative;
-}
-
-
 .main-tittle {
   font-size: 65px;
   font-weight: 700;
   color: #6ba7eb;
   position: absolute;
   top: 50%;
-  left: 50%;
-  -ms-transform: translate(-50%,-50%);
-  -webkit-transform: translate(-50%,-50%);
+  left: 40%;
+  -ms-transform: translate(-40%,-40%);
+  -webkit-transform: translate(-40%,-40%);
   transform: translate(-50%,-50%);
-  padding:0;
+  padding: 0;
+  white-space: nowrap;
 }
 
 .sub-tittle {
@@ -60,7 +56,7 @@ body {
 
 }
 
-.flex {
+.work-area {
   background-color: #e3f2fd;
   display: flex;
 }
@@ -70,7 +66,7 @@ body {
   padding-top: 50px;
 }
 
-.flex .tittle {
+.tittle {
   font-size: 40px;
   letter-spacing: 10px;
   padding-top: 20px;
@@ -80,4 +76,8 @@ body {
 .flex .text {
   margin: 0 0 0 20px;
 
+}
+
+.inner {
+  justify-content: space-evenly;
 }
