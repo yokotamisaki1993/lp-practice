@@ -21,6 +21,10 @@
   margin: 20px;
 }
 
+.main-pic {
+  position: relative;
+}
+
 .main-pic img {
   width: 100%;
 }
@@ -30,12 +34,12 @@
   font-weight: 700;
   color: #6ba7eb;
   position: absolute;
+  padding-bottom: 30px;
   top: 50%;
   left: 50%;
   -ms-transform: translate(-50%,-50%);
   -webkit-transform: translate(-50%,-50%);
   transform: translate(-50%,-50%);
-  padding-top: 400px;
   white-space: nowrap;
 }
 
@@ -45,10 +49,11 @@
   font-weight: 700;
   color: #fff;
   position: absolute;
-  padding-top: 30px;
-  top: 50%;
-  left: 50%;
-  padding-bottom: 400px;
+  top: 60%;
+  left: 60%;
+  -ms-transform: translate(-60%,-60%);
+  -webkit-transform: translate(-60%,-60%);
+  transform: translate(-35%,-35%);
 }
 
 tbody {
