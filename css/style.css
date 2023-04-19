@@ -4,6 +4,11 @@ body {
   display: block;
 }
 
+h1 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
 .fontawesome {
   background-color: #fff;
 }
@@ -60,6 +65,7 @@ body {
   transform: translate(-25%,-25%);
 }
 
+
 /* ワークエリア */
 .work-area {
   display: flex;
@@ -99,21 +105,9 @@ body {
 }
 
 
-
-
-
-
-/* セクションインナー */
-tbody {
-  display: table-row-group;
-  vertical-align: middle;
-  border-color: inherit;
-}
-
-tr {
-  display: table-row;
-  vertical-align: inherit;
-  border-color: inherit;
+/* インナー */
+.inner h1 {
+  padding-bottom: 0;
 }
 
 .tittle {
@@ -123,22 +117,24 @@ tr {
   padding-top: 50px;
 }
 
-
 .items {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  margin-left: 50px;
+  grid-template-columns: 0.5fr 1fr 2fr;
+  margin: 0 auto;
+  width: 75%;
 }
 
-.inner img {
+.items img {
   width: 300px;
   height: 300px;
   margin: 50px;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
 }
 
-.items :nth-child(1) {
+.items :nth-child(1){
+  margin-left: 0;
+}
+
+.items :nth-child(4) {
   margin-left: 0;
 }
 
@@ -146,37 +142,21 @@ tr {
   margin-right: 0;
 }
 
-.items :nth-child(4) {
-  margin-left: 0;
-}
-
 .items :nth-child(6) {
   margin-right: 0;
 }
 
 
+/* プラン */
 .plan {
   background-color: #d0dfea;
-}
-
-h1 {
-  padding-top: 50px;
   padding-bottom: 50px;
 }
 
 .cell-table {
   table-layout: fixed;
   margin: 0 auto;
-}
-
-.section-plan th {
-  background-color: #6ba7eb;
-  padding: 10px;
-  border-left: 2px solid #fff;
-}
-
-.section-plan :first-child {
-  border-left: none;
+  width: 70%;
 }
 
 .cell-table th {
@@ -195,12 +175,26 @@ h1 {
   text-align: center;
 }
 
-
-
 .cell-table tr:nth-child(even) {
   background-color: #e0efff;
 }
 
+.section-plan th {
+  background-color: #6ba7eb;
+  padding: 10px;
+  border-left: 2px solid #fff;
+}
+
+td {
+  border-left: 2px solid #fff;
+}
+
+.section-plan :first-child {
+  border-left: none;
+}
+
+
+/* SNS */
 .sns {
   background-color: #e3f2fd;
   padding-top: 200px;
@@ -218,8 +212,13 @@ h1 {
   width: 185px;
 }
 
-.footer-area {
-  background-color: #cfd8dc;
+.fa-solid {
+  width: 185px;
+}
+
+/* フッター */
+.back-color {
+  background-color:#cfd8dc;
 }
 
 .copyright {
@@ -228,4 +227,6 @@ h1 {
   padding-top: 20px;
   padding-bottom: 25px;
   float: right;
+  background-color: #cfd8dc;
+  width: 100%;
 }
