@@ -1,8 +1,9 @@
 @charset "utf-8";
 
 body {
-  display: block;
+  overflow-x: hidden;
 }
+
 
 h1 {
   padding-top: 50px;
@@ -11,15 +12,19 @@ h1 {
 
 .fontawesome {
   background-color: #fff;
+  padding: 15px 180px 15px 100px;
 }
 
 .fas {
   color: #777;
-  padding: 15px;
   position: relative;
   left: 100px;
 }
 
+.box a {
+  text-decoration: none;
+  color: #fff;
+}
 
 .box {
   background-color: #6ba7eb;
@@ -27,7 +32,6 @@ h1 {
   padding: 12px 14px;
   color: #fff;
   float: right;
-  margin: 20px;
 }
 
 .main-pic {
@@ -117,12 +121,16 @@ h1 {
   padding-top: 50px;
 }
 
-.items {
+.items a {
   display: grid;
   grid-template-columns: 0.5fr 1fr 2fr;
+}
+
+.items {
   margin: 0 auto;
   width: 75%;
 }
+
 
 .items img {
   width: 300px;
@@ -202,10 +210,14 @@ td {
 }
 
 .center {
-  color: #8c8c8c;
   overflow: hidden;
   font-size: 40px;
   text-align: center;
+}
+
+.center a {
+  color: #8c8c8c;
+  text-decoration: none;
 }
 
 .fab {
@@ -226,7 +238,7 @@ td {
   letter-spacing: 0.5px;
   padding-top: 20px;
   padding-bottom: 25px;
-  float: right;
   background-color: #cfd8dc;
   width: 100%;
+  text-align: right;
 }
