@@ -178,7 +178,7 @@ tr:nth-child(even) {
   background-color: #e0efff;
 }
 
-th {
+thead th {
   background-color: #6ba7eb;
   padding: 10px;
   border-left: 2px solid #fff;
