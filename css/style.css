@@ -146,25 +146,6 @@ h1 {
   margin-left: 0;
 } 
 
-.items-pic img:nth-child(3) {
-  margin-right: 0;
-}
-
-.items-pic img:nth-child(4) {
-  margin-left: 0;
-  margin-bottom: 70px;
-}
-
-.items-pic img:nth-child(5) {
-  margin-bottom: 70px;
-}
-
-.items-pic img:nth-child(6) {
-  margin-right: 0;
-  margin-bottom: 70px;
-}
-
-
 /* プラン */
 .plan {
   background-color: #d0dfea;
