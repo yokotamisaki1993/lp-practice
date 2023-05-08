@@ -13,13 +13,20 @@ h1 {
 /* ヘッダーアイコン */
 .fontawesome {
   background-color: #fff;
-  padding: 15px 180px 15px 100px;
+}
+
+.fontawesome .inner {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 1100px;
 }
 
 .fas {
   color: #777;
   position: relative;
-  left: 100px;
 }
 
 .box {
@@ -120,7 +127,7 @@ h1 {
   padding-bottom: 0px;
 }
 
-.inner {
+.skills .inner {
   margin-left: 150px;
   margin-bottom: 20px;
 }
@@ -142,7 +149,7 @@ h1 {
   margin: 50px;
 }
 
-.items-pic img:nth-child(1){
+.items-pic:nth-child(1) img{
   margin-left: 0;
 } 
 
