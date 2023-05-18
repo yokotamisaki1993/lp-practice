@@ -1,10 +1,5 @@
 @charset "utf-8";
 
-/* 全体 */
-body {
-  overflow-x: hidden;
-}
-
 h1 {
   padding-top: 50px;
   padding-bottom: 50px;
@@ -44,7 +39,12 @@ h1 {
 /* キービジュアル */
 
 .main-pic {
-  position: relative;
+  background-image: url("../img/keyvisual/keyvisual.jpg");
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  height: 935px;
 }
 
 .main-pic img {
@@ -56,13 +56,6 @@ h1 {
   font-size: 65px;
   font-weight: 700;
   color: #6ba7eb;
-  position: absolute;
-  top: 45%;
-  left: 45%;
-  -ms-transform: translate(-45%,-45%);
-  -webkit-transform: translate(-45%,-45%);
-  transform: translate(-45%,-45%);
-  white-space: nowrap;
 }
 
 .sub-tittle {
@@ -70,13 +63,8 @@ h1 {
   font-size: 40px;
   font-weight: 700;
   color: #fff;
-  position: absolute;
   padding-top: 30px;
-  top: 50%;
-  left: 50%;
-  -ms-transform: translate(-50%,-50%);
-  -webkit-transform: translate(-50%,-50%);
-  transform: translate(-25%,-25%);
+  text-align: center;
 }
 
 /* ワークエリア */
