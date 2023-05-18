@@ -145,7 +145,7 @@ h1 {
 .cell-table {
   table-layout: fixed;
   margin: 0 auto;
-  width: 70%;
+  width: 100%;
 }
 
 tr {
