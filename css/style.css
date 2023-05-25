@@ -13,7 +13,6 @@ h1 {
 }
 
 .inner {
-  width: 100%;
   max-width: 1100px;
   margin: 0 auto;
 }
@@ -37,34 +36,29 @@ h1 {
 }
 
 /* キービジュアル */
+.keyvisual {
+  max-width: 100%;
+  text-align: center;
+}
+
 
 .main-pic {
   background-image: url("../img/keyvisual/keyvisual.jpg");
-  display: flex;
-  width: 100%;
-  justify-content: center;
-  align-items: center;
-  height: 935px;
-}
-
-.main-pic img {
-  width: 100%;
-  vertical-align: top;
 }
 
 .main-tittle {
   font-size: 65px;
   font-weight: 700;
   color: #6ba7eb;
+  padding-top: 400px;
 }
 
 .sub-tittle {
-  width: 100%;
   font-size: 40px;
   font-weight: 700;
   color: #fff;
   padding-top: 30px;
-  text-align: center;
+  padding-bottom: 400px;
 }
 
 /* ワークエリア */
@@ -107,10 +101,6 @@ h1 {
 }
 
 /* スキル */
-.skills {
-  display: block;
-}
-
 .skills .tittle {
   padding-bottom: 0px;
 }
@@ -133,6 +123,14 @@ h1 {
   width: 300px;
   height: 300px;
   margin: 50px;
+}
+
+.items-pic :nth-child(1) img{
+  margin-top: 0;
+}
+
+.items-pic :nth-child(4) {
+  margin-bottom: 0;
 }
 
 
