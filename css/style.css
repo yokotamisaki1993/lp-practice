@@ -37,13 +37,14 @@ h1 {
 
 /* キービジュアル */
 .keyvisual {
-  max-width: 100%;
   text-align: center;
+  background-size: cover;
 }
 
 
 .main-pic {
   background-image: url("../img/keyvisual/keyvisual.jpg");
+  width: 100%;
 }
 
 .main-tittle {
