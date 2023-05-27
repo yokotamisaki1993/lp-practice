@@ -121,6 +121,12 @@ h1 {
   width: 300px;
   height: 300px;
   margin: 50px;
+  opacity: 0.7;
+}
+
+.items-pic img:hover {
+  transition: 0.7s;
+  opacity: 1;
 }
 
 .items-pic li:nth-child(-n+3) img{
