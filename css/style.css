@@ -39,12 +39,8 @@ h1 {
 .keyvisual {
   text-align: center;
   background-size: cover;
-}
-
-
-.main-pic {
-  background-image: url("../img/keyvisual/keyvisual.jpg");
   width: 100%;
+  background-image: url("../img/keyvisual/keyvisual.jpg");
 }
 
 .main-tittle {
@@ -110,6 +106,7 @@ h1 {
   font-size: 40px;
   letter-spacing: 10px;
   text-align: center;
+  margin-bottom: 50px;
 }
 
 .items-pic {
@@ -117,6 +114,7 @@ h1 {
   display: grid;
   justify-content: center;
   grid-template-columns: 1fr 1fr 1fr;
+  margin-bottom: 70px;
 }
 
 .items-pic img  {
@@ -125,7 +123,11 @@ h1 {
   margin: 50px;
 }
 
-.items-pic :nth-child(4) {
+.items-pic li:nth-child(-n+3) img{
+  margin-top: 0;
+}
+
+.items-pic li:nth-child(n+4) img{
   margin-bottom: 0;
 }
 
