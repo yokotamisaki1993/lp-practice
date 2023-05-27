@@ -1,10 +1,5 @@
 @charset "utf-8";
 
-h1 {
-  padding-top: 50px;
-  padding-bottom: 50px;
-}
-
 /* ヘッダーアイコン */
 .fontawesome {
   background-color: #fff;
@@ -98,8 +93,8 @@ h1 {
 }
 
 /* スキル */
-.skills .tittle {
-  padding-bottom: 0px;
+.skills {
+  padding-top: 50px;
 }
 
 .tittle {
@@ -141,6 +136,7 @@ h1 {
 .plan {
   background-color: #d0dfea;
   padding-bottom: 50px;
+  padding-top: 50px;
 }
 
 .cell-table {
