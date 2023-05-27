@@ -106,7 +106,6 @@ h1 {
   padding-bottom: 0px;
 }
 
-
 .tittle {
   font-size: 40px;
   letter-spacing: 10px;
@@ -126,14 +125,9 @@ h1 {
   margin: 50px;
 }
 
-.items-pic :nth-child(1) img{
-  margin-top: 0;
-}
-
 .items-pic :nth-child(4) {
   margin-bottom: 0;
 }
-
 
 /* プラン */
 .plan {
