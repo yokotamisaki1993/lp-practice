@@ -63,9 +63,17 @@
   background-color: #e3f2fd;
 }
 
+.work-content {
+  display: flex;
+  padding-top: 50px;
+}
+
+.pic-content {
+  flex-basis: 40%;
+}
+
 .work-area img {
   width: 250px;
-  padding-top: 50px;
 }
 
 .work-tittle {
@@ -75,6 +83,10 @@
   padding-top: 20px;
   font-weight: bold;
   text-align: center;
+}
+
+.text-content {
+  flex-basis: 60%;
 }
 
 .text {
@@ -88,6 +100,7 @@
 /* スキル */
 .skills {
   padding-top: 50px;
+  padding-bottom: 70px;
 }
 
 .tittle {
@@ -98,11 +111,9 @@
 }
 
 .items-pic {
-  width: 100%;
   display: grid;
   justify-content: center;
   grid-template-columns: 1fr 1fr 1fr;
-  margin-bottom: 70px;
 }
 
 .items-pic img  {
@@ -110,10 +121,10 @@
   height: 300px;
   margin: 50px;
   opacity: 0.7;
+  transition: 0.7s;
 }
 
 .items-pic img:hover {
-  transition: 0.7s;
   opacity: 1;
 }
 
@@ -121,8 +132,24 @@
   margin-top: 0;
 }
 
+.items-pic li:nth-child(1) img{
+  margin-left: 0;
+}
+
+.items-pic li:nth-child(3) img{
+  margin-right: 0;
+}
+
 .items-pic li:nth-child(n+4) img{
   margin-bottom: 0;
+}
+
+.items-pic li:nth-child(4) img{
+  margin-left: 0;
+}
+
+.items-pic li:nth-child(6) img{
+  margin-right: 0;
 }
 
 /* プラン */
