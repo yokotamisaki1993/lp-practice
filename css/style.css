@@ -2,6 +2,10 @@
 
 /* ヘッダーアイコン */
 .fontawesome {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
   background-color: #fff;
   padding-top: 15px;
   padding-bottom: 15px;
@@ -35,6 +39,8 @@
   text-align: center;
   background-size: cover;
   width: 100%;
+  padding-top: 400px;
+  padding-bottom: 400px;
   background-image: url("../img/keyvisual/keyvisual.jpg");
 }
 
@@ -42,7 +48,6 @@
   font-size: 65px;
   font-weight: 700;
   color: #6ba7eb;
-  padding-top: 400px;
 }
 
 .sub-tittle {
@@ -50,30 +55,17 @@
   font-weight: 700;
   color: #fff;
   padding-top: 30px;
-  padding-bottom: 400px;
 }
 
 /* ワークエリア */
 .work-area {
   display: flex;
   background-color: #e3f2fd;
-  width: 100%;
-  height: auto;
 }
 
 .work-area img {
-  display: inline-block;
   width: 250px;
   padding-top: 50px;
-  padding-left: 150px;
-  position: relative;
-  overflow: hidden;
-  vertical-align: top;
-}
-
-.work-content-area {
-  margin: 50px 0 0 20px;
-  padding: 0 180px;
 }
 
 .work-tittle {
@@ -81,6 +73,7 @@
   letter-spacing: 10px;
   padding-bottom: 0px;
   padding-top: 20px;
+  font-weight: bold;
   text-align: center;
 }
 
