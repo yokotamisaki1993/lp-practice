@@ -39,6 +39,10 @@
   color: #333;
 }
 
+main {
+  padding-top: 70px;
+}
+
 /* キービジュアル */
 .keyvisual {
   text-align: center;
@@ -64,17 +68,18 @@
 
 /* ワークエリア */
 .work-area {
+  padding-top: 50px;
   display: flex;
   background-color: #e3f2fd;
 }
 
 .work-content {
   display: flex;
-  padding-top: 50px;
 }
 
 .pic-content {
   flex-basis: 40%;
+  text-align: center;
 }
 
 .work-area img {
@@ -113,6 +118,7 @@
   letter-spacing: 10px;
   text-align: center;
   margin-bottom: 50px;
+  font-weight: bold;
 }
 
 .items-pic {
@@ -217,18 +223,21 @@ td {
   transition: 0.5s;
 }
 
-.icon a:hover {
-  color: #fff;
-}
-
-
 .fab {
   width: 185px;
 }
 
+.fab:hover {
+  background-color: #fff;
+ }
+
 .fa-solid {
   width: 185px;
 }
+
+.fa-solid:hover {
+  background-color: #fff;
+ }
 
 /* フッター */
 footer {
@@ -243,5 +252,4 @@ footer {
   letter-spacing: 0.5px;
   width: 100%;
   text-align: right;
-  padding-right: 200px;
 }
