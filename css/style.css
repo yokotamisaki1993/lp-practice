@@ -139,15 +139,12 @@ main {
   opacity: 1;
 }
 
+
 .items-pic li:nth-child(-n+3) img{
   margin-top: 0;
 }
 
-.items-pic li:nth-child(1) img{
-  margin-left: 0;
-}
-
-.items-pic li:nth-child(3) img{
+.items-pic li:nth-child(3n) img{
   margin-right: 0;
 }
 
@@ -155,13 +152,14 @@ main {
   margin-bottom: 0;
 }
 
-.items-pic li:nth-child(4) img{
+.items-pic li:nth-child(3n+1) img{
   margin-left: 0;
 }
 
 .items-pic li:last-child img{
   margin-right: 0;
 }
+
 
 /* プラン */
 .plan {
@@ -242,14 +240,16 @@ td {
 /* フッター */
 footer {
   background-color:#cfd8dc;
-  display: flex;
   padding-top: 20px;
   padding-bottom: 25px;
+}
+
+.footer-content {
+  text-align: right;
 }
 
 .copyright {
   font-size: 10px;
   letter-spacing: 0.5px;
   width: 100%;
-  text-align: right;
 }
