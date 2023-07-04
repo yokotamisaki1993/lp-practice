@@ -40,7 +40,7 @@
 }
 
 main {
-  padding-top: 70px;
+  padding-top: 78px;
 }
 
 /* キービジュアル */
@@ -103,7 +103,7 @@ main {
   font-size: 15px;
   line-height: 18px;
   word-break: break-all;
-  padding-top: 35px;
+  margin-top: 35px;
   text-align: center;
 }
 
@@ -220,17 +220,25 @@ td {
   text-decoration: none;
   transition: 0.5s;
 }
+.icon li {
+  margin: 0;
+}
 
 .fab {
   width: 185px;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
 .fab:hover {
   background-color: #fff;
+  margin: 0;
  }
 
 .fa-solid {
   width: 185px;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
 .fa-solid:hover {
