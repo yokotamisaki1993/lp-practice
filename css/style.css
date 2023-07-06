@@ -213,6 +213,8 @@ td {
 .icon {
   font-size: 40px;
   text-align: center;
+  display: block;
+  letter-spacing: -.4em;
 }
 
 .icon a {
