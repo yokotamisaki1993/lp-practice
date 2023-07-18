@@ -212,6 +212,7 @@ td {
   font-size: 40px;
   display:flex;
   letter-spacing: -.4em;
+  text-indent: -.4em;
   justify-content: center;
 }
 
