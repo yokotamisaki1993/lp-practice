@@ -255,7 +255,7 @@ main {
     vertical-align: top;
   }
 
-  .items-pic li:nth-child(4n) img{
+  .items-pic li:nth-child(3n+1) img{
     margin-top: 50px;
   }
 }
@@ -354,6 +354,13 @@ td {
   padding-bottom: 200px;
 }
 
+@media screen and (max-width:767px) {
+  .sns {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 100%;
+  }
+}
 
 .icon {
   font-size: 40px;
@@ -365,8 +372,9 @@ td {
 
 @media screen and (max-width:767px) {
   .icon {
-    width: 100%;
-    display: block;
+    padding: 0 15px;
+    flex-direction: column;
+    align-items: center;
   }
 }
 
@@ -383,6 +391,13 @@ td {
   padding-bottom: 25px;
 }
 
+@media screen and (max-width:767px) {
+  .fab {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}
+
 .fab:hover {
   background-color: #fff;
   margin: 0;
@@ -393,6 +408,14 @@ td {
   padding-top: 25px;
   padding-bottom: 25px;
 }
+
+@media screen and (max-width:767px) {
+  .fa-solid {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}
+
 
 .fa-solid:hover {
   background-color: #fff;
