@@ -3,12 +3,14 @@
 @media screen and (max-width: 1199px) {
   body {
     margin: 0;
+    background-position: center;
   }
 }
 
 @media screen and (max-width:767px) {
   body {
     margin: 0;
+    background-position: center;
   }
 }
 
@@ -139,6 +141,18 @@ main {
   padding-bottom: 400px;
   background-image: url("../img/keyvisual/keyvisual.jpg");
 }
+
+/* SP時 */
+@media screen and (max-width:767px) {
+ .keyvisual{
+    padding-top: 200px;
+    padding-bottom: 200px;
+  }
+}
+
+/* TAB時 */
+
+
 
 .main-tittle {
   font-size: 65px;
@@ -370,7 +384,8 @@ td {
   .sns {
     padding-top: 50px;
     padding-bottom: 50px;
-    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
   }
 }
 
@@ -384,7 +399,7 @@ td {
 
 @media screen and (max-width:767px) {
   .icon {
-    padding: 0 15px;
+    width: 100%;
     flex-direction: column;
     align-items: center;
   }
