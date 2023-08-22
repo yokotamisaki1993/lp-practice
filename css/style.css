@@ -117,12 +117,6 @@ main {
   padding-top: 78px;
 }
 
-@media screen and (max-width:1199px) {
-  main {
-    padding-top: 0;
-  }
-}
-
 /* キービジュアル */
 .keyvisual {
   text-align: center;
@@ -138,6 +132,7 @@ main {
   .keyvisual {
     padding-top: 250px;
     padding-bottom: 250px;
+    background-position: center;
   }
 }
 
